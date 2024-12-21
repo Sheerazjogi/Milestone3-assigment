@@ -74,7 +74,7 @@ function PostPage({ params }: { params: { slug: string } }) {
           <p className="mt-4 text-[14px] md:text-lg text-gray-600">{post.description2}</p>
         </div>
 
-        <CommentSection />
+        <CommentSection id={params.slug}/>
       </div>
     </>
   );

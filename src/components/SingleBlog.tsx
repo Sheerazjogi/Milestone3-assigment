@@ -7,13 +7,13 @@ import { MdOutlineDateRange } from "react-icons/md";
 
 function SingleBlog() {
   return (
-    <div className="max-w-full min-h-screen py-16  md:px-9  px-4 flex flex-col justify-center items-center">
-      <div className=" grid grid-cols-1 justify-center  items-center gap-9 lg:gap-14 gap-x-7 lg:gap-x-10  xl:grid-cols-3 md:grid-cols-2">
+    <div className="max-w-full min-h-screen py-16   px-4 flex flex-col justify-center items-center">
+      <div className=" grid grid-cols-1 justify-center  items-center gap-9 lg:gap-14 gap-x-7 lg:gap-x-12  xl:grid-cols-3 md:grid-cols-2">
         {data2.map((item, i) => {
           return (
             <div
               key={i}
-              className="rounded-xl hover:scale-[1.02] hover:shadow-2xl hover:shadow-slate-400 transition-all ease-linear   xl:w-[420px] lg:w-[450px] shadow-xl "
+              className="rounded-xl hover:scale-[1.02] hover:shadow-2xl hover:shadow-slate-400 transition-all ease-linear   xl:w-[400px] lg:w-[450px] shadow-xl "
             >
               <div className=" ">
                 <Image
