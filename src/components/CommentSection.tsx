@@ -18,7 +18,7 @@ const CommentSection = ({ id }: { id: string }) => {
     }
   }, [id]);
 
-  // Handle adding new comment
+  // adding new comment
   const handleAddComment = () => {
     if (newComment.trim() !== "") {
       const updatedComments = [...comments, newComment];
@@ -28,7 +28,7 @@ const CommentSection = ({ id }: { id: string }) => {
     }
   };
 
-  // Handle deleting a comment
+  // deleting a comment
   const handleDeleteComment = (index: number) => {
     const updatedComments = comments.filter((_, i) => i !== index); // Remove the comment at the specified index
     setComments(updatedComments); // Update state

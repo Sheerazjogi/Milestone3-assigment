@@ -56,7 +56,7 @@ const Footer = () => (
                 href={""}
                 className="text-gray-400 hover:text-gray-200 text-[17px] leading-9"
               >
-                Email:abc@gmail.com
+                Email:tryonce@gmail.com
               </Link>
             </li>
             <li>
@@ -64,7 +64,7 @@ const Footer = () => (
                 href={""}
                 className="text-gray-400 hover:text-gray-200 text-[17px] leading-9"
               >
-                Phone:+923131148362
+                Phone:+923082354543
               </Link>
             </li>
           </nav>
@@ -104,7 +104,7 @@ const Footer = () => (
       <div className="container px-5 py-6 mx-auto flex md:items-center sm:flex-row flex-col">
         <span className="ml-3 text-2xl font-bold ">Blogs</span>
         <p className="text-sm text-gray-300 sm:ml-6 sm:mt-0 mt-4">
-          © 2024 Blogs — Made by Ayesha Aziz. All Right Reserved
+          © 2024 Blogs — Sheeraz Ahmed. All Right Reserved
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <Link href={""} className="text-white">
@@ -133,7 +133,7 @@ const Footer = () => (
               <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
             </svg>
           </Link>
-          <Link target="_blank" href={"https://www.linkedin.com/in/ayesha-aziz-574780310/"} className="ml-3 text-white">
+          <Link target="_blank" href={"https://www.linkedin.com/in/sheeraz-ahmed-64a1a4221"} className="ml-3 text-white">
             <svg
               fill="currentColor"
               stroke="currentColor"

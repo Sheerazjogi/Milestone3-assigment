@@ -9,18 +9,15 @@ function page() {
       </div>
       <div className="text-[16px] sm:text-2xl text-slate-500 md:leading-10 leading-[25px]">
         <p>
-          Discover the fascinating world of Artificial Intelligence through
-          insightful articles, in-depth research, and real-world applications.
-          Our goal is to make AI accessible to everyone while exploring its
-          transformative impact on society and industries.
+        Uncover the intriguing realm of Artificial Intelligence with informative articles,
+         thorough research, and practical applications. 
+         Our mission is to make AI available to all while examining its transformative influence on society and various industries.
         </p>
         <br />
         <p>
-          This blog is the result of a collaborative effort by AI enthusiasts
-          and experts dedicated to sharing the latest trends and innovations in
-          the field. Whether your an industry veteran or just starting your
-          journey, our content will inspire and empower you to delve deeper into
-          the potential of AI.
+        This blog is the outcome of a joint effort by AI enthusiasts and specialists committed to sharing the newest trends and advancements in the field.
+         Whether you are an industry expert or new to the journey, 
+         our content will motivate and equip you to explore AI`s potential further.
         </p>
       </div>
     </div>

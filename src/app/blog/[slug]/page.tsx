@@ -9,7 +9,7 @@ import CommentSection from "@/components/CommentSection";
 import Link from "next/link";
 
 function PostPage({ params }: { params: { slug: string } }) {
-  // Ensure `id` ko number mein convert karna aur compare karna
+  
   const postId = params.slug;
   const post = Blog.find(
     (p) => p.title.toLowerCase().replace(/ /g, "-") === postId
@@ -36,14 +36,14 @@ function PostPage({ params }: { params: { slug: string } }) {
             <div className="inline-flex gap-x-2 items-center">
               <Link
                 target="_blank"
-                href={"https://www.linkedin.com/in/ayesha-aziz-574780310/"}
+                href={"https://www.linkedin.com/in/sheeraz-ahmed-64a1a4221"}
               >
                 <LuUser
                   size={30}
                   className="bg-gray-700 p-1 text-white rounded-[50%]"
                 />
               </Link>
-              <h2>Ayesha</h2>
+              <h2>Sheeraz</h2>
             </div>
           </div>
           <p className="inline-flex gap-x-2 items-center">
